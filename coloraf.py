@@ -20,7 +20,8 @@ def coloraf(selection="all"):
     """
 
     cmd.color("blue", f"({selection}) and b > 90")
-    cmd.color("cyan", f"({selection}) and b < 90 and b > 70")
+    cmd.color("cyan", f"({selection}) and b < 90 and b > 80")
+    cmd.color("green", f"({selection}) and b < 80 and b > 70")
     cmd.color("yellow", f"({selection}) and b < 70 and b > 50")
     cmd.color("orange", f"({selection}) and b < 50")
 
